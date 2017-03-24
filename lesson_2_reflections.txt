@@ -18,6 +18,10 @@ They help me understand the connections I make when using different git commands
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+That all the changes can be tracktable and sorted by timestamp. A diagram representation makes it easier to see connections and know original and the branches. 
+"it’s very common that if you make a branch, either an experimental branch or to work on a new feature, you want to periodically merge master into that branch. This is because master usually contains the official version of the code, and it’s common to want experimental changes to include all of the changes to master."
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+cons: anyoing that I have to do it by myself. and it takes time to resolve 
+Pros: better to do it manully than to merge commits that aren't working or working separtely but not combined. Also it might not compile at all. So manual merging gives me control. 
