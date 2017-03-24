@@ -3,6 +3,7 @@ git init lets me create a new empty repository with no commits in it. I need to 
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+It's an area between the working directory (on my HD) and the repository on Git. It allows me to add 1 or multiple files and saves them there until I'm ready to commit them to my repository, with they will then be committed at one.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
