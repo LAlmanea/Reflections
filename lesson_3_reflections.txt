@@ -36,4 +36,4 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Working on the master branch and making changes to it is much easier than creating a new branch on working on that. However, sometime creating a branch is better if you want to make changes like add or subtract some features and you don't want to make them part of the master branch if it's working well. The branches away from the master branch are good for taking risks that might or might not work; and only when they work, they're worth to be merged to the master branch! 
