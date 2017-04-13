@@ -6,12 +6,20 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    I need to always pull changes because I don't need access to every little change I make and that saves me some 
+    space in my computer (even if little) and also they're already on Github so there's really no need to have 
+    every change copied to my computer. 
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Forking is a term only present in Github; it means making a copy of an existing repository in someone else's 
+    account and having it present in my account. This is a good way of working on someone's code even if I don't 
+    have permission. Because the changes I make are just present in my copied version of the code not the original. Also, Forking is a nice way of giving credit to the person who I copied the code from. 
+    Cloning on the other hand is making a copy of a repo from Github to my local computer, or from my computer to my 
+    computer (local cloning) - but I don't know how to do this yet or why it's useful! 
+    Branches: are branches - or side track- made from the master file. This is particularly useful for collaboration. 
+    So if a team wants to work on a project, they start from a main file then each collaborater modify -or branch- from the main file to make everything intact. Then the team leader -or the whole team- can decide on what to keep from those modifications of added or subtracted features to the main, with the ability to make track of every change made. 
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
