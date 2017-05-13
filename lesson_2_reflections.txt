@@ -1,27 +1,41 @@
 What happens when you initialize a repository? Why do you need to do it?
-git init lets me create a new empty repository with no commits in it. I need to do in order to push my folder (repository) to Github. without it the folder will only be in my computer. 
+
+git init lets me create a new empty repository with no commits in it. I need to do it in order to push my folder (repository)
+to Github. Without it the folder will only be in my computer. 
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
-It's an area between the working directory (on my HD) and the repository on Git. It allows me to add 1 or multiple files and saves them there until I'm ready to commit them to my repository, with they will then be committed at one.
+
+It's an area between the working directory (on my HD) and the repository on Git. It allows me to add 1 or multiple files
+and saves them there until I'm ready to commit them to my repository, which the files in the staging area
+can be then committed to Github at once.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
-I can use it to make one comment on that includes all the files I'm about to commit. which should be a one logical change. even if it included multiple files. 
+
+I can make one comment to the staging area which on that includes all the files I'm about to commit. That comment should
+include one logical change. even if it included multiple files. 
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-When working on many versions of the same project. 
+
+When working on many versions of the same project. And when working with a team for a prolonged period of time.  
 
 How do the diagrams help you visualize the branch structure?
+
 They help me understand the connections I make when using different git commands.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
-That all the changes can be tracktable and sorted by timestamp. A diagram representation makes it easier to see connections and know original and the branches. 
-"it’s very common that if you make a branch, either an experimental branch or to work on a new feature, you want to periodically merge master into that branch. This is because master usually contains the official version of the code, and it’s common to want experimental changes to include all of the changes to master."
+
+That all the changes can be tracktable and sorted by timestamp. A diagram representation makes it easier to see connections 
+and know the original and branches. 
+"it’s very common that if you make a branch, either an experimental branch or to work on a 
+new feature, you want to periodically merge master into that branch. This is because master usually contains the official 
+version of the code, and it’s common to want experimental changes to include all of the changes to master."
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
 cons: anyoing that I have to do it by myself. and it takes time to resolve 
 Pros: better to do it manully than to merge commits that aren't working or working separtely but not combined. Also it might not compile at all. So manual merging gives me control. 
